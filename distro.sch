@@ -42,9 +42,9 @@ EELAYER 27 0
 EELAYER END
 $Descr USLegal 14000 8500
 encoding utf-8
-Sheet 1 6
+Sheet 1 9
 Title "Power Distribution Board"
-Date "14 aug 2015"
+Date "21 aug 2015"
 Rev "2"
 Comp ""
 Comment1 "Phelps Williams"
@@ -108,5 +108,50 @@ U 55CD615F
 F0 "Landing Lights" 50
 F1 "landing_lights.sch" 50
 F2 "RC_IN" I L 6750 3800 60 
+$EndSheet
+$Sheet
+S 6750 4300 1150 500 
+U 55D64868
+F0 "Lidar" 50
+F1 "lidar.sch" 50
+F2 "AUX6 (PWR_EN)" O L 6750 4400 60 
+F3 "AUX5 (Mode)" I L 6750 4600 60 
+$EndSheet
+$Sheet
+S 6750 5100 1150 500 
+U 55D669B5
+F0 "Payload" 50
+F1 "payload.sch" 50
+F2 "RC_IN" I L 6750 5350 60 
+$EndSheet
+Wire Bus Line
+	6400 2200 6400 5250
+Entry Wire Line
+	6400 5250 6500 5350
+Entry Wire Line
+	6400 4500 6500 4600
+Entry Wire Line
+	6400 4300 6500 4400
+Entry Wire Line
+	6400 3700 6500 3800
+Entry Wire Line
+	6400 2900 6500 3000
+Wire Wire Line
+	6750 3000 6500 3000
+Wire Wire Line
+	6750 3800 6500 3800
+Wire Wire Line
+	6750 4400 6500 4400
+Wire Wire Line
+	6750 4600 6500 4600
+Wire Wire Line
+	6750 5350 6500 5350
+Wire Bus Line
+	4450 2200 6400 2200
+$Sheet
+S 950  6750 1150 600 
+U 55D6D1E4
+F0 "Hardware" 50
+F1 "hardware.sch" 50
 $EndSheet
 $EndSCHEMATC
