@@ -1,4 +1,4 @@
-update=Fri 21 Aug 2015 02:27:17 PM PDT
+update=Sat 22 Aug 2015 10:20:51 AM PDT
 version=1
 last_client=eeschema
 [pcbnew]
@@ -53,7 +53,7 @@ NetIExt=net
 EquName1=devcms
 [eeschema]
 version=1
-LibDir=/home/pwilliams/projects/kicad-libs
+LibDir=/home/pwilliams/projects/kicad_libs
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -99,3 +99,4 @@ LibName36=p_micrel
 LibName37=p_samtec
 LibName38=w_transistor
 LibName39=w_analog
+LibName40=p_meas_spec

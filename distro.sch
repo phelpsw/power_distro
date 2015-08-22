@@ -38,6 +38,7 @@ LIBS:p_micrel
 LIBS:p_samtec
 LIBS:w_transistor
 LIBS:w_analog
+LIBS:p_meas_spec
 LIBS:distro-cache
 EELAYER 27 0
 EELAYER END
