@@ -37,6 +37,7 @@ LIBS:w_connectors
 LIBS:p_micrel
 LIBS:p_samtec
 LIBS:w_transistor
+LIBS:w_analog
 LIBS:distro-cache
 EELAYER 27 0
 EELAYER END
@@ -44,7 +45,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 9
 Title ""
-Date "21 aug 2015"
+Date "22 aug 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -95,6 +96,7 @@ F 0 "R15" V 2180 2650 40  0000 C CNN
 F 1 "470" V 2107 2651 40  0000 C CNN
 F 2 "~" V 2030 2650 30  0000 C CNN
 F 3 "~" H 2100 2650 30  0000 C CNN
+F 4 "P470CCT-ND" V 2100 2650 60  0001 C CNN "Digikey"
 	1    2100 2650
 	1    0    0    -1  
 $EndComp

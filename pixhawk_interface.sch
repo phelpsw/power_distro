@@ -37,6 +37,7 @@ LIBS:w_connectors
 LIBS:p_micrel
 LIBS:p_samtec
 LIBS:w_transistor
+LIBS:w_analog
 LIBS:distro-cache
 EELAYER 27 0
 EELAYER END
@@ -44,7 +45,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
 Title ""
-Date "21 aug 2015"
+Date "22 aug 2015"
 Rev ""
 Comp ""
 Comment1 ""

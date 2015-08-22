@@ -37,6 +37,7 @@ LIBS:w_connectors
 LIBS:p_micrel
 LIBS:p_samtec
 LIBS:w_transistor
+LIBS:w_analog
 LIBS:distro-cache
 EELAYER 27 0
 EELAYER END
@@ -44,7 +45,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
 Title ""
-Date "21 aug 2015"
+Date "22 aug 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -57,9 +58,9 @@ L CONN_6X2 J9
 U 1 1 55CD560D
 P 1650 1800
 F 0 "J9" H 1650 2150 60  0000 C CNN
-F 1 "CONN_6X2" V 1650 1800 60  0000 C CNN
-F 2 "" H 1650 1800 60  0000 C CNN
-F 3 "" H 1650 1800 60  0000 C CNN
+F 1 "SSW-106-02-G-D-RA" V 1650 1800 60  0000 C CNN
+F 2 "~" H 1650 1800 60  0000 C CNN
+F 3 "~" H 1650 1800 60  0000 C CNN
 	1    1650 1800
 	1    0    0    -1  
 $EndComp
@@ -68,9 +69,9 @@ L CONN_8X2 J8
 U 1 1 55CD561C
 P 3600 1800
 F 0 "J8" H 3600 2250 60  0000 C CNN
-F 1 "CONN_8X2" V 3600 1800 50  0000 C CNN
-F 2 "" H 3600 1800 60  0000 C CNN
-F 3 "" H 3600 1800 60  0000 C CNN
+F 1 "SSW-108-02-S-D-RA" V 3600 1800 50  0000 C CNN
+F 2 "~" H 3600 1800 60  0000 C CNN
+F 3 "~" H 3600 1800 60  0000 C CNN
 	1    3600 1800
 	1    0    0    -1  
 $EndComp
