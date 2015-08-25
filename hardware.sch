@@ -39,6 +39,8 @@ LIBS:p_samtec
 LIBS:w_transistor
 LIBS:w_analog
 LIBS:p_meas_spec
+LIBS:p_ublox
+LIBS:p_microchip
 LIBS:distro-cache
 EELAYER 27 0
 EELAYER END
@@ -46,7 +48,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 9
 Title ""
-Date "22 aug 2015"
+Date "24 aug 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -78,10 +80,10 @@ F 4 "P100KCCT-ND" V 4200 4100 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0170
+L GND #PWR0183
 U 1 1 55D6D20A
 P 4200 4450
-F 0 "#PWR0170" H 4200 4450 30  0001 C CNN
+F 0 "#PWR0183" H 4200 4450 30  0001 C CNN
 F 1 "GND" H 4200 4380 30  0001 C CNN
 F 2 "" H 4200 4450 60  0000 C CNN
 F 3 "" H 4200 4450 60  0000 C CNN

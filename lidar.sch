@@ -39,6 +39,8 @@ LIBS:p_samtec
 LIBS:w_transistor
 LIBS:w_analog
 LIBS:p_meas_spec
+LIBS:p_ublox
+LIBS:p_microchip
 LIBS:distro-cache
 EELAYER 27 0
 EELAYER END
@@ -46,7 +48,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 9
 Title ""
-Date "22 aug 2015"
+Date "24 aug 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -79,10 +81,10 @@ F 4 "F3366CT-ND" H 2250 1850 60  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR0123
+L +5V #PWR0136
 U 1 1 55D64B31
 P 2250 1500
-F 0 "#PWR0123" H 2250 1590 20  0001 C CNN
+F 0 "#PWR0136" H 2250 1590 20  0001 C CNN
 F 1 "+5V" H 2250 1590 30  0000 C CNN
 F 2 "" H 2250 1500 60  0000 C CNN
 F 3 "" H 2250 1500 60  0000 C CNN
@@ -102,10 +104,10 @@ F 4 "P470CCT-ND" V 2100 2650 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0124
+L GND #PWR0137
 U 1 1 55D64B4F
 P 2100 3000
-F 0 "#PWR0124" H 2100 3000 30  0001 C CNN
+F 0 "#PWR0137" H 2100 3000 30  0001 C CNN
 F 1 "GND" H 2100 2930 30  0001 C CNN
 F 2 "" H 2100 3000 60  0000 C CNN
 F 3 "" H 2100 3000 60  0000 C CNN

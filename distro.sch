@@ -39,6 +39,8 @@ LIBS:p_samtec
 LIBS:w_transistor
 LIBS:w_analog
 LIBS:p_meas_spec
+LIBS:p_ublox
+LIBS:p_microchip
 LIBS:distro-cache
 EELAYER 27 0
 EELAYER END
@@ -46,7 +48,7 @@ $Descr USLegal 14000 8500
 encoding utf-8
 Sheet 1 9
 Title "Power Distribution Board"
-Date "22 aug 2015"
+Date "24 aug 2015"
 Rev "2"
 Comp ""
 Comment1 "Phelps Williams"
