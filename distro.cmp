@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Mon 24 Aug 2015 06:11:07 PM PDT
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Tue 25 Aug 2015 01:07:15 PM PDT
 
 BeginCmp
 TimeStamp = /55CD057A/55DB6BE1;
@@ -388,7 +388,7 @@ EndCmp
 BeginCmp
 TimeStamp = /55CD057A/55D6B351;
 Reference = F5;
-ValeurCmp = 4A 5V ;
+ValeurCmp = 4A 5V;
 IdModule  = littelfuse-1206;
 EndCmp
 
@@ -799,6 +799,34 @@ IdModule  = sma_90_r300.124.403;
 EndCmp
 
 BeginCmp
+TimeStamp = /55D6D1E4/55DCC507;
+Reference = P3;
+ValeurCmp = Pad;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D6D1E4/55DCC519;
+Reference = P4;
+ValeurCmp = Pad;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D6D1E4/55DCC50D;
+Reference = P5;
+ValeurCmp = Pad;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D6D1E4/55DCC51F;
+Reference = P6;
+ValeurCmp = Pad;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
 TimeStamp = /55CD59F0/55CD3F9D;
 Reference = Q1;
 ValeurCmp = IRFZ44;
@@ -1201,14 +1229,14 @@ BeginCmp
 TimeStamp = /55CD615F/55CD3F33;
 Reference = U10;
 ValeurCmp = 74LS74;
-IdModule  = soic-14;
+IdModule  = so-14;
 EndCmp
 
 BeginCmp
 TimeStamp = /55CD615F/55D6B09C;
 Reference = U11;
 ValeurCmp = 74LS74;
-IdModule  = soic-14;
+IdModule  = so-14;
 EndCmp
 
 BeginCmp

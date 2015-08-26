@@ -48,7 +48,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 9
 Title ""
-Date "24 aug 2015"
+Date "25 aug 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1039,7 +1039,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 1050 10100 1000
 Wire Wire Line
-	6550 1200 6250 1200
+	6550 1200 6150 1200
 Wire Wire Line
 	6000 1300 6550 1300
 Wire Wire Line
@@ -1133,7 +1133,7 @@ Connection ~ 2650 3950
 Wire Wire Line
 	1750 5050 1750 5150
 Wire Wire Line
-	6550 3500 6250 3500
+	6550 3500 6150 3500
 Wire Wire Line
 	6000 3600 6550 3600
 Wire Wire Line
@@ -1598,9 +1598,9 @@ F 4 "P1.00MCCT-ND" V 4800 6500 60  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4550 6500 4500 6500
+	4500 6500 4550 6500
 Wire Wire Line
-	4500 6500 4500 6300
+	4500 6300 4500 6500
 Wire Wire Line
 	5100 6350 4500 6350
 Connection ~ 4500 6350

@@ -48,7 +48,7 @@ $Descr USLegal 14000 8500
 encoding utf-8
 Sheet 1 9
 Title "Power Distribution Board"
-Date "24 aug 2015"
+Date "25 aug 2015"
 Rev "2"
 Comp ""
 Comment1 "Phelps Williams"
