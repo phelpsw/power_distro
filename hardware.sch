@@ -33,11 +33,8 @@ LIBS:p_cui
 LIBS:p_lvk25
 LIBS:p_ti
 LIBS:p_switch
-LIBS:w_connectors
 LIBS:p_micrel
 LIBS:p_samtec
-LIBS:w_transistor
-LIBS:w_analog
 LIBS:p_meas_spec
 LIBS:p_ublox
 LIBS:p_microchip
@@ -48,7 +45,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 9
 Title ""
-Date "25 aug 2015"
+Date "27 aug 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -80,10 +77,10 @@ F 4 "P100KCCT-ND" V 4200 4100 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0183
+L GND #PWR0165
 U 1 1 55D6D20A
 P 4200 4450
-F 0 "#PWR0183" H 4200 4450 30  0001 C CNN
+F 0 "#PWR0165" H 4200 4450 30  0001 C CNN
 F 1 "GND" H 4200 4380 30  0001 C CNN
 F 2 "" H 4200 4450 60  0000 C CNN
 F 3 "" H 4200 4450 60  0000 C CNN

@@ -33,11 +33,8 @@ LIBS:p_cui
 LIBS:p_lvk25
 LIBS:p_ti
 LIBS:p_switch
-LIBS:w_connectors
 LIBS:p_micrel
 LIBS:p_samtec
-LIBS:w_transistor
-LIBS:w_analog
 LIBS:p_meas_spec
 LIBS:p_ublox
 LIBS:p_microchip
@@ -48,7 +45,7 @@ $Descr USLegal 14000 8500
 encoding utf-8
 Sheet 1 9
 Title "Power Distribution Board"
-Date "25 aug 2015"
+Date "27 aug 2015"
 Rev "2"
 Comp ""
 Comment1 "Phelps Williams"

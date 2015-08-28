@@ -33,11 +33,8 @@ LIBS:p_cui
 LIBS:p_lvk25
 LIBS:p_ti
 LIBS:p_switch
-LIBS:w_connectors
 LIBS:p_micrel
 LIBS:p_samtec
-LIBS:w_transistor
-LIBS:w_analog
 LIBS:p_meas_spec
 LIBS:p_ublox
 LIBS:p_microchip
@@ -48,7 +45,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
 Title ""
-Date "25 aug 2015"
+Date "27 aug 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -72,8 +69,8 @@ L TSW-106-02-S-TRA J7
 U 1 1 55CD0668
 P 8850 1650
 F 0 "J7" H 8200 1200 60  0000 C CNN
-F 1 "TSW-106-02-S-TRA" H 8650 2150 60  0000 C CNN
-F 2 "con-samtec-TSW-106-02-S-T-RA" H 9500 1300 60  0001 C CNN
+F 1 "TSW-108-08-G-T-RA" H 8650 2150 60  0000 C CNN
+F 2 "~" H 9500 1300 60  0001 C CNN
 F 3 "~" H 9500 1300 60  0000 C CNN
 	1    8850 1650
 	1    0    0    -1  

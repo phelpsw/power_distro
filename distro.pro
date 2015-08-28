@@ -1,11 +1,16 @@
-update=Tue 25 Aug 2015 01:09:22 PM PDT
+update=Thu 27 Aug 2015 01:15:53 PM PDT
 version=1
 last_client=pcbnew
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
-LibDir=/home/pwilliams/projects/kicad-libs
+LibDir=/home/pwilliams/projects/kicad-libs;/home/pwilliams/projects/kicad-3rd-party
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -54,19 +59,14 @@ LibName39=w_analog
 LibName40=p_meas_spec
 LibName41=p_ublox
 LibName42=p_microchip
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=distro.net
 UseCmpFile=1
 PadDrill="    0.000000"
 PadDrillOvalY="    0.000000"
-PadSizeH="    1.800000"
-PadSizeV="    0.800000"
+PadSizeH="    2.999740"
+PadSizeV="    5.298440"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Tue 25 Aug 2015 01:07:15 PM PDT
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 27 Aug 2015 03:52:18 PM PDT
 
 BeginCmp
 TimeStamp = /55CD057A/55DB6BE1;
@@ -120,13 +120,6 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /55D669B5/55D6B0A3;
-Reference = C17;
-ValeurCmp = 0.022uF;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /55CD59F0/55D7DA0C;
 Reference = C18;
 ValeurCmp = 0.1uF;
@@ -190,13 +183,6 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /55D669B5/55D80ABD;
-Reference = C27;
-ValeurCmp = 0.1uF;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /55C7C3D0/55D8CDB4;
 Reference = C28;
 ValeurCmp = 10uF;
@@ -242,20 +228,6 @@ BeginCmp
 TimeStamp = /55CD057A/55D902B6;
 Reference = C34;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D669B5/55D8E0EF;
-Reference = C35;
-ValeurCmp = 0.1uF;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D669B5/55D8E074;
-Reference = C36;
-ValeurCmp = 0.022uF;
 IdModule  = SM0805;
 EndCmp
 
@@ -337,24 +309,10 @@ IdModule  = LED_PLCC3;
 EndCmp
 
 BeginCmp
-TimeStamp = /55D669B5/55D6B0D0;
-Reference = D9;
-ValeurCmp = BI_LED;
-IdModule  = LED_PLCC3;
-EndCmp
-
-BeginCmp
 TimeStamp = /55C7C3D0/55D8C212;
 Reference = D10;
 ValeurCmp = LED Green;
 IdModule  = LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D669B5/55D8E0A3;
-Reference = D11;
-ValeurCmp = BI_LED;
-IdModule  = LED_PLCC3;
 EndCmp
 
 BeginCmp
@@ -633,8 +591,8 @@ EndCmp
 BeginCmp
 TimeStamp = /55CD057A/55CD0668;
 Reference = J7;
-ValeurCmp = TSW-106-02-S-TRA;
-IdModule  = con-samtec-TSW-106-02-S-T-RA;
+ValeurCmp = TSW-108-08-G-T-RA;
+IdModule  = con-samtec-TSW-108-02-S-T-RA;
 EndCmp
 
 BeginCmp
@@ -914,7 +872,7 @@ BeginCmp
 TimeStamp = /55C7C3D0/55CCEC1E;
 Reference = R5;
 ValeurCmp = 2m;
-IdModule  = lvk_resistor-LVK25;
+IdModule  = LVK25;
 EndCmp
 
 BeginCmp
@@ -942,7 +900,7 @@ BeginCmp
 TimeStamp = /55C7C3D0/55CD03CE;
 Reference = R9;
 ValeurCmp = 2m;
-IdModule  = lvk_resistor-LVK25;
+IdModule  = LVK25;
 EndCmp
 
 BeginCmp
@@ -956,7 +914,7 @@ BeginCmp
 TimeStamp = /55C7C3D0/55CD2543;
 Reference = R11;
 ValeurCmp = 10m;
-IdModule  = lvk_resistor-LVK25;
+IdModule  = LVK25;
 EndCmp
 
 BeginCmp
@@ -1005,20 +963,6 @@ BeginCmp
 TimeStamp = /55D6D1E4/55D6D1FB;
 Reference = R18;
 ValeurCmp = 100k;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D669B5/55D8E07B;
-Reference = R19;
-ValeurCmp = 57.6k;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D669B5/55D8E0AA;
-Reference = R20;
-ValeurCmp = 300;
 IdModule  = SM0805;
 EndCmp
 
@@ -1086,22 +1030,8 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /55D669B5/55D6B0A5;
-Reference = R30;
-ValeurCmp = 57.6k;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /55D669B5/55D6B0D3;
 Reference = R31;
-ValeurCmp = 300;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D669B5/55D6B0D7;
-Reference = R32;
 ValeurCmp = 300;
 IdModule  = SM0805;
 EndCmp
@@ -1261,13 +1191,6 @@ IdModule  = so-14;
 EndCmp
 
 BeginCmp
-TimeStamp = /55D669B5/55CD3D59;
-Reference = U15;
-ValeurCmp = 74LS74;
-IdModule  = so-14;
-EndCmp
-
-BeginCmp
 TimeStamp = /55C7C3D0/55D797DB;
 Reference = U16;
 ValeurCmp = MCP601-SOT;
@@ -1307,13 +1230,6 @@ TimeStamp = /55CD057A/55D8FAEE;
 Reference = U21;
 ValeurCmp = MS4525DO-DS;
 IdModule  = DIP-8__300;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D669B5/55D8E05A;
-Reference = U22;
-ValeurCmp = 74LS74;
-IdModule  = so-14;
 EndCmp
 
 BeginCmp
